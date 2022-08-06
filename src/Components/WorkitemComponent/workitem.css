@@ -1,0 +1,290 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    width: 80%;
+    margin: auto;
+  }
+  
+  .svg-section{
+    margin: 0;
+    padding: 0;
+  }
+
+  [class^=svgsub-section-]{
+    padding: 0;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 300px;
+  }
+
+
+  .imgsub-section{
+    padding: 0;
+    width: 600px;
+    height: 600px;
+    margin-bottom: 600px;
+  }
+  
+  [class^=block-] {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 200px;
+  }
+
+  [class^=rever-block-] {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 200px;
+  }
+
+
+  .work-main-title{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+  
+  .work-number{
+    margin: 0 0 0 auto;
+  }
+
+  .work-subtitle{
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+
+  .work-main-content{
+    font-size: 20px;
+    line-height: 50px;
+  }
+
+  .work-main-seciton{
+    width: 600px;
+  }
+
+  .svgsub-section-1{
+    margin-left: 300px;
+  }
+
+  .svgsub-section-2{
+    margin-right: 300px;
+  }
+
+  .svgsub-section-3{
+    margin-left: 300px;
+  }
+
+  .svgsub-section-4{
+    margin-right: 300px;
+  }
+
+  .svgsub-section-5{
+    margin-left: 300px;
+  }
+
+  .imgsub-section{
+    margin-right: 300px;
+  }
+
+
+  
+  [class^=box-] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  @media (max-width: 1200px) {
+    [class^=block-] {
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    [class^=rever-block-] {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    .work-title0{
+      font-size: 30px;
+    }
+  
+  
+  
+    .imgsub-section{
+      margin-right: 0px;
+    }
+  
+    .work-main-seciton{
+    width: 100%;
+    }
+  
+    .work-title-content{
+      font-size: 20px;
+    }
+  
+    .work-main-seciton{
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+  
+  
+    .work-main-title{
+      font-size: 15px;
+    }
+  
+    .svgsub-section-1{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 25%;
+      margin-bottom: 100px;
+    }
+  
+    .svgsub-section-2{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 25%;
+      margin-bottom: 100px;
+    }
+  
+    .svgsub-section-3{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 25%;
+      margin-bottom: 100px;
+    }
+  
+    .svgsub-section-4{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 25%;
+      margin-bottom: 100px;
+    }
+  
+    .svgsub-section-5{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 25%;
+      margin-bottom: 100px;
+    }
+  
+    .imgsub-section{
+      width: 500px;
+      height: 500px;
+      margin-top: 50px;
+      margin-left: 25%;
+      margin-bottom: 100px;
+    }
+  
+  }
+
+  
+   
+@media screen and (max-width: 959px) {
+
+
+  .svgsub-section-1{
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .svgsub-section-2{
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .svgsub-section-3{
+    width: 300px;
+    height: 300px;
+ 
+  }
+
+  .svgsub-section-4{
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .svgsub-section-5{
+    width: 300px;
+    height: 300px;
+
+  }
+
+  .imgsub-section{
+    width: 300px;
+    height: 300px;
+
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .svgsub-section-1{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-right: 0%;
+    margin-left: 0px;
+  }
+
+  .svgsub-section-2{
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+  }
+
+  .svgsub-section-3{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+  }
+
+  .svgsub-section-4{
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+  }
+
+  .svgsub-section-5{
+    width: 300px;
+    height: 300px;
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+  }
+
+  .imgsub-section{
+    width: 300px;
+    height: 300px;
+    margin-bottom: 200px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    margin-left: 0px;
+  }
+
+}

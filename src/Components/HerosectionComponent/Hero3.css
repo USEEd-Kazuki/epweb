@@ -1,0 +1,17 @@
+.title{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    object-fit: contain;
+    color: white;
+    background-color: transparent;
+}
+
+.about-content{
+    margin: 0;
+    max-width: 1640px;
+    color: white;
+}

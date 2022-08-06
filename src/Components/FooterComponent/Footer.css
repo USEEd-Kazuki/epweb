@@ -1,0 +1,143 @@
+.footer-container{
+  background-color: #242424;
+  height: 90vh;
+  position: relative;
+}
+
+.footerLogo-item{
+  width: 300px;
+  height: 300px;
+  margin-right: 15px;
+  margin-left: 10%;
+  margin-top: 100px;
+}
+
+.footer-adress{
+  color: white;
+  margin-left: 10%;
+  margin-top: 60px;
+  font-size: 30px;
+}
+
+.adress{
+  margin-top: 10px;
+}
+
+.adress-title{
+  margin-bottom: 5px;
+  font-size: 50px;
+}
+
+.address-titleLine{
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-links{
+  position: absolute;
+  display: block;
+  top: 200px;
+  right: 25%;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  text-align: center;
+  border-left: 1px solid #fff;
+  padding-left: 60px;
+}
+
+.footer-link-items{
+  margin-bottom: 30px;
+}
+
+.footer-link-items a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-link-items :hover{
+  color: #4a641d;
+}
+
+.website-rights {
+  position: absolute;
+  margin-top: 100px;
+  right: 10%;
+  color: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+
+  .footerLogo-item{
+    width: 200px;
+    height: 200px;
+  }
+
+  .adress{
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 959px) {
+  .adress-title{
+    font-size: 30px;
+  }
+  .address-titleLine{
+    width: 150px;
+  }
+
+
+  .footer-adress{
+    font-size: 15px;
+  }
+
+  .footer-links{
+    position: absolute;
+    display: block;
+    top: 30px;
+    right: 25%;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    border-left: 1px solid #fff;
+    padding-left: 60px;
+
+  }
+
+  .footerLogo-item{
+    display: none;
+  }
+
+  .website-rights{
+    margin-top: 180px;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .adress-title{
+    font-size: 30px;
+  }
+  .address-titleLine{
+    width: 150px;
+  }
+
+  .footer-adress{
+    font-size: 15px;
+  }
+
+  .footer-links {
+    border-left: none;
+    position: initial;
+    margin-top: 100px;
+    justify-content: center;
+    padding-left: 0%;
+  }
+    .footerLogo-item{
+      display: none;
+      
+  }
+
+}

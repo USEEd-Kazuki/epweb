@@ -1,0 +1,140 @@
+.about-content{
+    background-color: transparent;
+    color: #fff;
+    max-width: 80%;
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    z-index: 1000;
+    font-size: 60px;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.about-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-line{
+    margin-bottom: 20px;
+}
+
+.about-title-content{
+    font-size: 25px;
+    line-height: 50px;
+    max-width: 650px;
+    margin: 0 0 0 auto;
+}
+
+.about-title-section{
+    margin-bottom: 300px;
+}
+
+.about-profile-section{
+    margin-bottom: 200px;
+}
+
+.about-profile-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about-profile{
+    margin-bottom: 600px;
+}
+
+.about-photo-section{
+    margin-bottom: 300px;
+}
+
+.imgsub-about1{
+    width: 700px;
+    height: 600px;
+}
+
+.imgsub-about2{
+    margin-top: 200px;
+    width: 800px;
+    height: 600px;
+    
+}
+
+.img-about2{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* table01 */
+
+  
+  #table01 th,
+  #table01 td {
+    padding: 24px 0;
+    border: none;
+  }
+  
+  #table01 th {
+    width: 30%;
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    #table01 th,
+    #table01 td {
+      width: 80%;
+      display: block;
+    }
+  
+    #table01 th {
+      width: 80%;
+    }
+  
+    #table01 td {
+      padding-top: 0;
+      padding: 0%;
+      font-size: 15px;
+    }
+  }
+
+  @media screen and (max-width: 959px) {
+    .about-title{
+      font-size: 30px;
+    }
+  
+    .about-title-content{
+      font-size: 20px;
+    }
+
+    .about-profile-title{
+        font-size: 30px;
+    }
+
+    
+  
+  }
+
+  @media screen and (max-width: 480px) {
+  
+    .imgsub-about1{
+      width: 300px;
+      height: 300px;
+    }
+
+    .img-about1{
+        display: flex;
+        justify-content: center;
+    }
+     
+    .img-about2{
+        justify-content: center;
+    }
+
+    .imgsub-about2{
+        width: 300px;
+        height: 300px;
+      }
+  
+  }
+  

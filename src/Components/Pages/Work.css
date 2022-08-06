@@ -1,0 +1,39 @@
+.work-content{
+  width: 80%;
+  margin: auto;
+}
+.work-container{
+    background-color: transparent;
+    z-index: 100;
+    color: #fff;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+.work-title0{
+  font-size: 50px;
+  padding-top: 100px;
+  margin-bottom: 20px;
+}
+
+.work-title-content{
+  font-size: 30px;
+  line-height: 50px;
+  max-width: 650px;
+  margin: 0 0 0 auto;
+  margin-top: 20px;
+  margin-bottom: 600px;
+}
+
+@media screen and (max-width: 959px) {
+  .work-title0{
+    font-size: 30px;
+  }
+
+  .work-title-content{
+    font-size: 20px;
+    margin-bottom: 300px;
+  }
+
+}
+

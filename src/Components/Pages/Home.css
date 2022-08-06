@@ -1,0 +1,48 @@
+.home-main-container {
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 1800px;
+    
+  }
+  
+  .home-main-title{
+    font-size: 50px;
+    color: white;
+    text-align: left;
+    width: 80vw;
+  }
+  
+  .home-main-content {
+    font-size: 35px;
+    color: white;
+    text-align: left;
+    width: 80vw;
+  }
+
+
+  @media screen and (max-width: 959px) {
+    .home-main-title{
+      font-size: 30px;
+    }
+
+    .home-main-content{
+      font-size: 25px;
+    }
+  
+  }
+  
+  @media screen and (max-width: 480px) {
+
+    .home-main-title{
+      font-size: 25px;
+    }
+
+    .home-main-content{
+      font-size: 20px;
+    }
+
+    br{
+      display: none;
+    }
+  }
+   

@@ -1,0 +1,302 @@
+.team-conatiner{
+    background-color: transparent;
+    color: #fff;
+    max-width: 80%;
+    padding: 0;
+    margin: auto;
+    z-index: 1000;
+}
+
+.team-title-section{
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+.team-title-content{
+    font-size: 25px;
+    line-height: 50px;
+    max-width: 650px;
+    margin: 0 0 0 auto;
+}
+
+.teamMember-position{
+    border-bottom: #fff solid;
+    width: 300px;
+    margin: auto;
+}
+
+.team-title{
+    font-size: 50px;
+}
+
+.team-line{
+    margin-bottom: 60px;
+}
+
+.teamMember-contaner{
+    margin-bottom: 200px;
+}
+
+.teamMember-title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+
+.teammember-contant{
+    list-style: none;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 300px;
+}
+
+
+.aliance-section{
+    margin-top: 80px;
+    margin-bottom: 600px;
+}
+
+.aliance-content{
+    font-size: 25px;
+    line-height: 50px;
+    max-width: 650px;
+    margin: 0 0 0 auto;
+    
+}
+
+
+.aliance-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.aliance-line{
+    margin-bottom: 60px;
+}
+
+.aliance-company{
+    font-size: 50px;
+    line-height: 50px;
+    max-width: 650px;
+    margin: 0 0 0 auto;
+    padding-top: 100px;
+}
+
+.aliance-company-name{
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.culture-section{
+    margin-top: 80px;
+    margin-bottom: 600px;
+}
+
+.culture-main-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.culture-content{
+    font-size: 25px;
+    line-height: 50px;
+    max-width: 650px;
+    margin: 0 0 0 auto;
+    padding-bottom: 100px;
+}
+
+.culture-line{
+    margin-bottom: 60px;
+}
+
+.teamMember-name{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    padding: 24px 0;
+    font-size: 25px;
+    text-align: left;
+}
+
+
+td{
+  padding: 24px 80px 24px 24px;
+  margin-left: 50px;
+  text-align: left;
+  font-size: 25px;
+}
+
+.sylan{
+    padding: 0;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.culture-li{
+    display: flex;
+    list-style: none;
+}
+
+.culture-title{
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    padding-right: 40px;
+}
+
+.culture-subcontent{
+    font-size: 30px;
+    text-align:left;
+  padding:20px 0;
+}
+
+
+@media screen and (max-width: 1200px) {
+
+    .team-title{
+        font-size: 30px;
+      }
+  
+    .team-title-content{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .teamMember-title{
+        font-size: 30px;
+    }
+
+    .aliance-title{
+        font-size: 30px;
+    }
+
+    .sylan{
+        position: initial;
+        margin-left: 0px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .aliance-section{
+        margin-bottom: 300px;
+    }
+
+    .aliance-content{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .aliance-company-name{
+        font-size: 30px;
+    }
+
+    .culture-main-title{
+        font-size: 30px;
+    }
+
+    .culture-section{
+        margin-bottom: 300px;
+    }
+
+    .culture-content{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .culture-li{
+        display: block;
+    }
+    
+    .culture-title{
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .culture-subcontent{
+        text-align: left;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+  }
+
+
+
+@media screen and (max-width: 480px) {
+
+    .team-title{
+        font-size: 30px;
+      }
+  
+    .team-title-content{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .teamMember-title{
+        font-size: 30px;
+    }
+
+    .aliance-title{
+        font-size: 30px;
+    }
+
+    .sylan{
+        position: initial;
+        margin-left: 0px;
+        margin: auto;
+        margin-bottom: 60px;
+    }
+
+    .aliance-section{
+        margin-bottom: 300px;
+    }
+
+    .aliance-content{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .aliance-company-name{
+        font-size: 30px;
+    }
+
+    .culture-main-title{
+        font-size: 30px;
+    }
+
+    .culture-section{
+        margin-bottom: 300px;
+    }
+
+    .culture-content{
+        font-size: 15px;
+        line-height: 30px;
+    }
+
+    .culture-li{
+        display: block;
+    }
+    
+    .culture-title{
+        text-align: left;
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    
+    .culture-subcontent{
+        text-align: left;
+        font-size: 10px;
+        margin-bottom: 10px;
+    }
+  }
