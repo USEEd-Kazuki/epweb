@@ -5,8 +5,8 @@
 }
 
 .footerLogo-item{
-  width: 300px;
-  height: 300px;
+  width: 200px;
+  height: 200px;
   margin-right: 15px;
   margin-left: 10%;
   margin-top: 100px;
@@ -68,10 +68,6 @@
 
 @media screen and (max-width: 1200px) {
 
-  .footerLogo-item{
-    width: 200px;
-    height: 200px;
-  }
 
   .adress{
     font-size: 20px;

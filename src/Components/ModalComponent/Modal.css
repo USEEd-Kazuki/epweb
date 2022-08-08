@@ -178,6 +178,15 @@
     filter: brightness(.8);
    }
 
+   @media screen and (max-width: 1200px) {
+    .modal, .overlay{
+        top: 5%;
+    }
+
+
+  }
+
+
 
    @media screen and (max-width: 959px) {
     .modal, .overlay{

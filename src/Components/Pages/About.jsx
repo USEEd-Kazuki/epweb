@@ -1,8 +1,8 @@
 import React from "react";
 import Hero3 from "../HerosectionComponent/Hero3";
 import Particle from "../ParticleComponent/Particle";
-import Image01 from "../imges/office1.jpeg";
-import Image02 from "../imges/office2.jpeg";
+import Image01 from "../imges/office1.jpg";
+import Image02 from "../imges/office2.jpg";
 import './About.css';
 import { useTranslation } from "react-i18next";
 
