@@ -1,6 +1,6 @@
 .header {
     background:  transparent;
-    height: 10%;
+    height: 10vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -134,7 +134,6 @@
     position: absolute;
     right: 15%;
     list-style: none;
-    
   }
 
   .trans-jp{
@@ -155,8 +154,6 @@
 
 
 @media screen and (max-width: 959px) {
-
-  
   .trans-item{
     right: 15%;
   }
@@ -164,9 +161,6 @@
   .header{
     height: 20%;
   }
-  
-
-
 }
 
 @media screen and (max-width: 480px) {
@@ -175,11 +169,19 @@
   }
 
   .trans-item{
-    right: 25%;
+    right: 30%;
   }
 
   .header{
     height: 10%;
+  }
+
+  .trans-jp{
+    font-size: 30px;
+  }
+
+  .trans-en{
+    font-size: 30px;
   }
 
 }
