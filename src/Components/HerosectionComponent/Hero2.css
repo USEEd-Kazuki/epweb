@@ -8,6 +8,11 @@
     background-color: transparent;
 }
 
+@media screen and (max-width: 1200px) {
+  .CanvasContainer{
+      display: none;
+  }
+}
   
   @media screen and (max-width: 480px) {
     .CanvasContainer{

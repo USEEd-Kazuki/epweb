@@ -13,7 +13,7 @@
 }
 
 .team-title-content{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 50px;
     max-width: 650px;
     margin: 0 0 0 auto;
@@ -26,7 +26,7 @@
 }
 
 .team-title{
-    font-size: 50px;
+    font-size: 25px;
 }
 
 .team-line{
@@ -39,14 +39,14 @@
 
 .teamMember-title{
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 80px;
 }
 
 .teammember-contant{
     list-style: none;
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     margin-bottom: 300px;
 }
 
@@ -57,7 +57,7 @@
 }
 
 .aliance-content{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 50px;
     max-width: 650px;
     margin: 0 0 0 auto;
@@ -66,7 +66,7 @@
 
 
 .aliance-title{
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
@@ -75,7 +75,7 @@
 }
 
 .aliance-company{
-    font-size: 50px;
+    font-size: 25px;
     line-height: 50px;
     max-width: 650px;
     margin: 0 0 0 auto;
@@ -83,7 +83,7 @@
 }
 
 .aliance-company-name{
-    font-size: 40px;
+    font-size: 20px;
     margin-top: 20px;
 }
 
@@ -93,12 +93,12 @@
 }
 
 .culture-main-title{
-    font-size: 50px;
+    font-size: 25px;
     margin-bottom: 20px;
 }
 
 .culture-content{
-    font-size: 25px;
+    font-size: 20px;
     line-height: 50px;
     max-width: 650px;
     margin: 0 0 0 auto;
@@ -150,14 +150,21 @@ td{
 .culture-title{
     justify-content: center;
     text-align: center;
-    font-size: 50px;
+    font-size: 25px;
     padding-right: 40px;
 }
 
 .culture-subcontent{
-    font-size: 30px;
+    font-size: 20px;
     text-align:left;
   padding:20px 0;
+}
+th{
+    font-size: 25px;
+}
+
+td{
+    font-size: 20px;
 }
 
 
@@ -235,20 +242,20 @@ td{
 @media screen and (max-width: 480px) {
 
     .team-title{
-        font-size: 30px;
+        font-size: 18px;
       }
   
     .team-title-content{
-        font-size: 15px;
+        font-size: 16px;
         line-height: 30px;
     }
 
     .teamMember-title{
-        font-size: 30px;
+        font-size: 18px;
     }
 
     .aliance-title{
-        font-size: 30px;
+        font-size: 18px;
     }
 
     .sylan{
@@ -263,16 +270,16 @@ td{
     }
 
     .aliance-content{
-        font-size: 15px;
+        font-size: 16px;
         line-height: 30px;
     }
 
     .aliance-company-name{
-        font-size: 30px;
+        font-size: 18px;
     }
 
     .culture-main-title{
-        font-size: 30px;
+        font-size: 18px;
     }
 
     .culture-section{
@@ -280,7 +287,7 @@ td{
     }
 
     .culture-content{
-        font-size: 15px;
+        font-size: 16px;
         line-height: 30px;
     }
 
@@ -290,13 +297,30 @@ td{
     
     .culture-title{
         text-align: left;
-        font-size: 25px;
+        font-size: 18px;
         margin-bottom: 5px;
     }
     
     .culture-subcontent{
         text-align: left;
-        font-size: 10px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
+
+    #table01 th,
+    #table01 td {
+      width: 80%;
+      display: block;
+    }
+  
+    #table01 th {
+      width: 80%;
+    }
+  
+    #table01 td {
+      padding-top: 0;
+      padding: 0%;
+      font-size: 15px;
+    }
+    
   }

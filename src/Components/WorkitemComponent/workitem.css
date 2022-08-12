@@ -13,8 +13,8 @@
 
   [class^=svgsub-section-]{
     padding: 0;
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     margin-bottom: 300px;
   }
 
@@ -285,6 +285,15 @@
     margin-top: 50px;
     margin-bottom: 150px;
     margin-left: 0px;
+  }
+
+  .work-subtitle{
+    font-size: 18px;
+  }
+
+  .work-main-content{
+    font-size: 16px;
+    
   }
 
 }

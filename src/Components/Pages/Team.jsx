@@ -92,20 +92,26 @@ const Team = () => {
           <p className="culture-content">
           {t("culture")}
            </p>
-          <ul>
-          <li className='culture-li'>
-                <h3 className="culture-title">Enjoy</h3>
-                <h3 className="culture-subcontent">{t("enjoy")}</h3>
-              </li>
-              <li className='culture-li'>
-                <h3 className="culture-title">Professional</h3>
-                <h3 className="culture-subcontent">{t("professional")}</h3>
-              </li>
-              <li className='culture-li'>
-                <h3 className="culture-title">Transformation</h3>
-                <h3 className="culture-subcontent">{t("transformation")}</h3>
-              </li>
-          </ul>
+          <table id="table01">
+            <tbody>
+            <tr>
+              <th>Enjoy</th>
+              <td>{t("enjoy")}</td>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr>
+              <th>Professional</th>
+              <td>{t("professional")}</td>
+            </tr>
+            </tbody>
+            <tbody>
+            <tr>
+              <th>Transformation</th>
+              <td>{t("transformation")}</td>
+            </tr>
+            </tbody>
+          </table>
         </div>
       </div>
     </>

@@ -31,7 +31,7 @@
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 90%;
+    top: 10vh;
     right: 0;
     width: 100%;
     background-color: #181818;
@@ -57,7 +57,7 @@
   }
 
 
-  
+
   .header-logo {
     color: #fff;
     justify-self: left;
@@ -137,7 +137,7 @@
   }
 
   .trans-jp{
-    font-size: 40px;
+    font-size: 30px;
     margin-right: 20px;
     background: none;
     color: white;
@@ -145,7 +145,7 @@
   }
 
   .trans-en{
-    font-size: 40px;
+    font-size: 30px;
     background: none;
     color: white;
     border: none;
@@ -155,11 +155,15 @@
 
 @media screen and (max-width: 959px) {
   .trans-item{
-    right: 15%;
+    right: 20%;
   }
 
   .header{
-    height: 20%;
+    height: 10vh;
+  }
+
+  .header-logo h3{
+    display: none;
   }
 }
 

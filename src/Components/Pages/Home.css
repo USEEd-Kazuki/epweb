@@ -6,14 +6,14 @@
   }
   
   .home-main-title{
-    font-size: 50px;
+    font-size: 30px;
     color: white;
     text-align: left;
     width: 80vw;
   }
   
   .home-main-content {
-    font-size: 35px;
+    font-size: 25px;
     color: white;
     text-align: left;
     width: 80vw;
@@ -34,11 +34,11 @@
   @media screen and (max-width: 480px) {
 
     .home-main-title{
-      font-size: 25px;
+      font-size: 18px;
     }
 
     .home-main-content{
-      font-size: 20px;
+      font-size: 16px;
     }
 
     br{

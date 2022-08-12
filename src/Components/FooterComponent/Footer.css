@@ -16,7 +16,7 @@
   color: white;
   margin-left: 10%;
   margin-top: 60px;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .adress{
@@ -25,7 +25,7 @@
 
 .adress-title{
   margin-bottom: 5px;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 .address-titleLine{
@@ -40,7 +40,7 @@
   right: 25%;
   color: white;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 25px;
   text-align: center;
   border-left: 1px solid #fff;
   padding-left: 60px;
@@ -61,14 +61,12 @@
 
 .website-rights {
   position: absolute;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   right: 10%;
   color: #fff;
 }
 
 @media screen and (max-width: 1200px) {
-
-
   .adress{
     font-size: 20px;
   }
@@ -82,7 +80,6 @@
   .address-titleLine{
     width: 150px;
   }
-
 
   .footer-adress{
     font-size: 15px;
@@ -107,14 +104,14 @@
   }
 
   .website-rights{
-    margin-top: 180px;
+    margin-top: 200px;
   }
 
 }
 
 @media screen and (max-width: 480px) {
   .adress-title{
-    font-size: 30px;
+    font-size: 18px;
   }
   .address-titleLine{
     width: 150px;
@@ -134,13 +131,20 @@
     border-left: none;
     position: initial;
     margin-top: 100px;
-    font-size: 30px;
+    font-size: 18px;
     justify-content: center;
     padding-left: 0%;
   }
+
     .footerLogo-item{
       display: none;
       
   }
+
+  .website-rights{
+    margin-left: 25%;
+    position: initial;
+  }
+
 
 }
