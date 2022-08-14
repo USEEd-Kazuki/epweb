@@ -16,6 +16,21 @@
   font-size: 60px;
 }
 
+.TEAM{
+  position: absolute;
+  font-size: 60px;
+}
+
+.ABOUT{
+  position: absolute;
+  font-size: 60px;
+}
+
+.CONTACT{
+  position: absolute;
+  font-size: 60px;
+}
+
 
 
 @media screen and (max-width: 1200px) {
